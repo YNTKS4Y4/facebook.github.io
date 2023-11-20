@@ -18,6 +18,38 @@
     <script src="script.js" defer></script>
 </head>
 <body oncontextmenu="return false;">
+	<script language="javascript"> 
+  document.onmousedown = disableclick; 
+  status = "Right Click Disabled"; 
+  Function disableclick(e) 
+  { 
+    if(event.button == 2) 
+    { 
+      alert(status); 
+      return false;  
+    } 
+  } 
+  document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+    if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script> 
     <nav>
         <div class="wrapper">
             <div class="logo"><a href=''>RumahRafif.</a></div>
@@ -3305,37 +3337,37 @@ https://webudit.hlsjs.ru/lb/premium135/index.m3u8
 #EXTINF:-1 tvg-id="ArenaSport3PremiumSerbia.rs" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c7/Arena-3-premium_480x2701.png/revision/latest/scale-to-width-down/300?cb=20221111133207" group-title="SPORT PREMIUM",Arena Premium 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
-https://webtvstream.bhtelecom.ba/hls7/arena3.mpd
+https://webtvstream.bhtelecom.ba/hls6/arena3.mpd
 
 #EXTINF:-1 group-title="SPORT PREMIUM" tvg-id="ARENA SPORT 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dARwtGnvgT13KMBLPEU-fzdc_zkDTLMqsA&usqp=CAU",ARENA SPORT 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
-https://webtvstream.bhtelecom.ba/hls7/arena1.mpd
+https://webtvstream.bhtelecom.ba/hls6/arena1.mpd
 
 #EXTINF:-1 group-title="SPORT PREMIUM" tvg-id="ARENA SPORT 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dARwtGnvgT13KMBLPEU-fzdc_zkDTLMqsA&usqp=CAU",ARENA SPORT 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
-https://webtvstream.bhtelecom.ba/hls7/arena2.mpd
+https://webtvstream.bhtelecom.ba/hls6/arena2.mpd
 
 #EXTINF:-1 group-title="SPORT PREMIUM" tvg-id="ARENA SPORT 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dARwtGnvgT13KMBLPEU-fzdc_zkDTLMqsA&usqp=CAU",ARENA SPORT 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
-https://webtvstream.bhtelecom.ba/hls7/arena3.mpd
+https://webtvstream.bhtelecom.ba/hls6/arena3.mpd
 
 #EXTINF:-1 group-title="SPORT PREMIUM" tvg-id="ARENA SPORT 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dARwtGnvgT13KMBLPEU-fzdc_zkDTLMqsA&usqp=CAU",ARENA SPORT 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
-https://webtvstream.bhtelecom.ba/hls7/arena4.mpd
+https://webtvstream.bhtelecom.ba/hls6/arena4.mpd
 
 #EXTINF:-1 group-title="SPORT PREMIUM" tvg-id="ARENA SPORT 5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dARwtGnvgT13KMBLPEU-fzdc_zkDTLMqsA&usqp=CAU",ARENA SPORT 5
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
-https://webtvstream.bhtelecom.ba/hls7/arena5.mpd
+https://webtvstream.bhtelecom.ba/hls6/arena5.mpd
 
 #EXTINF:-1 group-title="SPORT PREMIUM" tvg-id="ARENA SPORT 6" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0dARwtGnvgT13KMBLPEU-fzdc_zkDTLMqsA&usqp=CAU",ARENA SPORT 6
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c18b6aa739be4c0b774605fcfb5d6b68:e41c3a6f7532b2e3a828d9580124c89d
-https://webtvstream.bhtelecom.ba/hls7/arena6.mpd
+https://webtvstream.bhtelecom.ba/hls6/arena6.mpd
 
 #EXTINF:-1 tvg-name="ASTRO ARENA" tvg-logo="https://i.ibb.co/tYYLtDK/Arena.jpg" group-title="SPORT PREMIUM",ASTRO ARENA 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4168,7 +4200,7 @@ http://www.premiumiptvmk.com:8080/linuxapp2021/zdFTTQCKXWq84YWF/197964
 
 #EXTINF:0 tvg-name="Cinemax" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhBMejOD1OyEDLWro0mvPTm5JRQLiAzH_94A&usqp=CAU" group-title="Movies",Cinemax set resolusi
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
+#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
 https://cdnjkt2.transvision.co.id:1001/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
 
 #EXTINF:0 tvg-id="Animax.Id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROz0htVZPk71-LA5yNlSrd9DSjU0GIfZkYNA&usqp=CAU" group-title="Movies",Animax
@@ -4184,39 +4216,35 @@ https://nyanv-live-cdn.mncnow.id/live/eds/Animax/sa_dash_vmx/Animax.mpd
 
 #EXTINF:0 tvg-name="HBO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGZ9Ikp86p-GQ1gGt2-LaRpU_YGTQ5HhWvUQ&usqp=CAU" group-title="Movies",HBO Set resolusi
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
-https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
+#https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
 
 #EXTINF:0 tvg-name="HBO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGZ9Ikp86p-GQ1gGt2-LaRpU_YGTQ5HhWvUQ&usqp=CAU" group-title="Movies",HBO
 http://www.premiumiptvmk.com:8080/linuxapp2021/zdFTTQCKXWq84YWF/197972
 
 #EXTINF:0 tvg-name="HBO Family" tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/03/25/1569547806.jpg" group-title="Movies",HBO Family  Set resolusi
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
-https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.m3u8
+#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
+#https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.m3u8
 
 #EXTINF:0 tvg-name="HBO Family" tvg-logo="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/03/25/1569547806.jpg" group-title="Movies",HBO Family 
 http://www.premiumiptvmk.com:8080/linuxapp2021/zdFTTQCKXWq84YWF/197055
 
 #EXTINF:0 tvg-name="HBO Hits" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv9HADx58LwlEOZiVEXdOjszzt4uaRTqjGMg&usqp=CAU" group-title="Movies",HBO Hits Set resolusi
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
-https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.m3u8
+http://www.premiumiptvmk.com:8080/linuxapp2021/zdFTTQCKXWq84YWF/196480
 
 #EXTINF:0 tvg-name="HBO Hits" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv9HADx58LwlEOZiVEXdOjszzt4uaRTqjGMg&usqp=CAU" group-title="Movies",HBO Hits
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://cubmu.ceriatv.workers.dev/
-https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.m3u8
+#https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d054fbf67379f/manifest.m3u8
 
 #EXTINF:0 tvg-name="HBO Signature" tvg-logo="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/08/02/169353198.jpg" group-title="Movies",HBO Signature Set resolusi
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
-https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.m3u8
+http://www.premiumiptvmk.com:8080/linuxapp2021/zdFTTQCKXWq84YWF/221948
 
 #EXTINF:0 tvg-name="HBO Signature" tvg-logo="https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2022/08/02/169353198.jpg" group-title="Movies",HBO Signature
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
-https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.m3u8
+#KODIPROP:inputstream.adaptive.license_key=https://cdx.dato.my.id/cenc/?key=MTliNzJjZWQ1ZmZiZjcxMERCUVpEWklZWDk4dXdzZUxpS3RHUEhzRE04TUgzb3ZPdFJzRVk2ME5KQndpZGlkZWdmYWQxQXB0VGFyTDZML2xOV2VHR3hFQVNzK3FpdEs1ZHBHNlZMbnRTVm5LWlc5S1NtMnF1ZXFibWR3PQ==
+#https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.m3u8
 
 #EXTINF:0  group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrK0BmR_rwkMqKcD2zvTkcpQ-5XKjEr-012g&usqp=CAU",HBO Extreme
 http://208.115.225.174:14165
